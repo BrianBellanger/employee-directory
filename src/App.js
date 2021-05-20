@@ -16,13 +16,36 @@ class App extends Component {
     this.setState({ employees });
   };
 
+   compare = (a, b) => {
+    //  console.log("compare", a);
+    // Use toUpperCase() to ignore character casing
+    const nameA = a.name.toUpperCase();
+    const nameB = b.name.toUpperCase();
+  
+    let comparison = 0;
+    if (nameA > nameB) {
+      comparison = 1;
+    } else if (nameA < nameB) {
+      comparison = -1;
+    }
+    return comparison;
+  }
+
+  sortName = () => {
+      // console.log("Click!", this.state.employees);
+      let newstate = this.state.employees.sort(this.compare);
+      this.setState({employees: newstate})
+
+  };
+
+
   render() {
     return (
       <Wrapper>
-
         <Title>Employee List</Title>
-        <Search></Search>
-        <Header></Header>
+        <Search />
+
+        <button onClick={this.sortName}>Sort Name</button>
 
         {this.state.employees.map(employee => (
           <EmployeeCard
