@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Spencer Bob",
+    "image": "logo192.png",
+    "number": "646-654-6456",
+    "email": "asdf@yahoo.com",
+    "dob": "12/11/1984",
+    "dept": "Accounting"
+  },
+  {
+    "id": 2,
+    "name": "Kay Krabs",
+    "image": "logo192.png",
+    "number": "676-676-7676",
+    "email": "hjkl@yahoo.com",
+    "dob": "1/1/1971",
+    "dept": "Management"
+  },
+  {
+    "id": 3,
+    "name": "Sid Ward",
+    "image": "logo192.png",
+    "number": "312-321-1321",
+    "email": "tyuti@yahoo.com",
+    "dob": "11/20/2000",
+    "dept": "Legal"
+  },
+  {
+    "id": 4,
+    "name": "Dexter Hannibal",
+    "image": "logo192.png",
+    "number": "987-789-9898",
+    "email": "wert@yahoo.com",
+    "dob": "6/6/1976",
+    "dept": "Development"
+  },
+  {
+    "id": 5,
+    "name": "Courtney Courage",
+    "image": "logo192.png",
+    "number": "989-676-3213",
+    "email": "sadfg@yahoo.com",
+    "dob": "11/1/1971",
+    "dept": "Technology"
+  },
+  {
+    "id": 6,
+    "name": "Doug Funnie",
+    "image": "logo192.png",
+    "number": "434-545-7676",
+    "email": "asdfg@yahoo.com",
+    "dob": "11/11/1989",
+    "dept": "Marketing"
+  },
+  {
+    "id": 7,
+    "name": "Bunny Raze",
+    "image": "logo192.png",
+    "number": "908-786-312",
+    "email": "ytuio@yahoo.com",
+    "dob": "7/7/1977",
+    "dept": "HR"
+  },
+  {
+    "id": 8,
+    "name": "Johnny Bravo",
+    "image": "logo192.png",
+    "number": "673-512-3232",
+    "email": "xfgyu@yahoo.com",
+    "dob": "9/5/1988",
+    "dept": "HR"
+  },
+  {
+    "id": 9,
+    "name": "Tommy Pickles",
+    "image": "logo192.png",
+    "number": "111-222-3333",
+    "email": "rghn@yahoo.com",
+    "dob": "6/1/1973",
+    "dept": "Building"
+  },
+  {
+    "id": 10,
+    "name": "Rocko Balboa",
+    "image": "logo192.png",
+    "number": "512-867-5309",
+    "email": "sadrt@yahoo.com",
+    "dob": "4/4/2000",
+    "dept": "Training"
+  },
+  {
+    "id": 11,
+    "name": "Caitlin Planet",
+    "image": "logo192.png",
+    "number": "123-456-7890",
+    "email": "webrt@yahoo.com",
+    "dob": "6/6/1966",
+    "dept": "Marketing"
+  },
+  {
+    "id": 12,
+    "name": "Ickis Kay",
+    "image": "logo192.png",
+    "number": "321-654-0987",
+    "email": "xzfgtjhl@yahoo.com",
+    "dob": "5/21/1974",
+    "dept": "Technology"
+  }
+]
