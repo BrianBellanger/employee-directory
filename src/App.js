@@ -1,14 +1,15 @@
 import React, { Component } from "react";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
-import Header from "./components/Header";
-import Search from "./components/Search";
+// import Header from "./components/Header";
+import Search from "./components/Search/search";
 import EmployeeCard from "./components/EmployeeCard";
 import employees from "./employees.json";
 
 class App extends Component {
   state = {
-    employees
+    employees,
+    searchName: ""
   };
 
   removeEmployee = id => {
@@ -38,12 +39,27 @@ class App extends Component {
 
   };
 
+  handleInputChange = event => {
+    const { name, value } = event.target;
+    console.log("value:::", value);
+
+    this.setState({
+      [name]: value
+    });
+    let newstate = this.state.employees.sort(this.compare);
+    this.setState({employees: newstate})
+    console.log(newstate);
+    //????filter through this.state.employees (name) with the value
+    //????return only if match
+    //setState employee
+  };
+
 
   render() {
     return (
       <Wrapper>
         <Title>Employee List</Title>
-        <Search />
+        <Search handleInputChange={this.handleInputChange}/>
 
         <button onClick={this.sortName}>Sort Name</button>
 
