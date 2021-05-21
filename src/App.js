@@ -60,8 +60,26 @@ class App extends Component {
       <Wrapper>
         <Title>Employee List</Title>
         <Search handleInputChange={this.handleInputChange}/>
-
-        <button onClick={this.sortName}>Sort Name</button>
+        <div className="row border">
+        <div className="col-2">
+            <strong>Pic</strong>
+        </div>
+        <div className="col-2">
+            <strong><button onClick={this.sortName}>Name</button></strong>
+        </div>
+        <div className="col-2">
+            <strong>Number</strong>
+        </div>
+        <div className="col-2">
+            <strong>Email</strong>
+        </div>
+        <div className="col-2">
+            <strong>DOB</strong>
+        </div>
+        <div className="col-2">
+            <strong>Del</strong>
+        </div>
+    </div>
 
         {this.state.employees.map(employee => (
           <EmployeeCard
